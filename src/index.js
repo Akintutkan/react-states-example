@@ -4,10 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import İnputExample from "./components/İnputExample"
+import Counter from "./components/Counter"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <İnputExample />
+   {/* <İnputExample /> */}
+   <Counter />
+
   </React.StrictMode>
 );
 
